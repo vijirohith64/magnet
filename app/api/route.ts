@@ -14,7 +14,7 @@ export async function POST(request: NextRequest) {
 
 // -------------------------
 // GET (fetch reviews)
-// -------------------------
+// -----------------------
 export async function GET(request: NextRequest) {
   try {
     const authHeader = request.headers.get("authorization")
